@@ -1,0 +1,23 @@
+{
+  "name": "grunt-contrib-cml-html-converter",
+  "version": "1.0.0",
+  "description": "Grunt Plugin for cml-html-converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahuntington/grunt-contrib-cml-html-converter.git"
+  },
+  "keywords": [
+    "CML",
+    "Grunt"
+  ],
+  "author": "Matt Huntington",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mahuntington/grunt-contrib-cml-html-converter/issues"
+  },
+  "homepage": "https://github.com/mahuntington/grunt-contrib-cml-html-converter#readme"
+}
