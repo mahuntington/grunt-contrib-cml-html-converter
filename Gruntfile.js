@@ -1,13 +1,15 @@
+var cml_converter = require('cml-html-converter');
 module.exports = function(grunt) {
 	grunt.initConfig({
-		log: {
-			foo: [1, 2, 3],
-			bar: 'hello world',
-			baz: false
+		cml: {
+			test: {
+				src: 'test.txt',
+				dest: 'result.html'
+			}
 		}
 	});
 
-	grunt.registerMultiTask('log', 'Log stuff.', function() {
-		grunt.log.writeln(this.target + ': ' + this.data);
+	grunt.registerMultiTask('cml', function() {
+		console.log(this);
 	});
 };
