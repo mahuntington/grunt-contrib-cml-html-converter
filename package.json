@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/mahuntington/grunt-contrib-cml-html-converter/issues"
   },
-  "homepage": "https://github.com/mahuntington/grunt-contrib-cml-html-converter#readme"
+  "homepage": "https://github.com/mahuntington/grunt-contrib-cml-html-converter#readme",
+  "dependencies": {
+    "cml-html-converter": "^1.0.1"
+  }
 }
