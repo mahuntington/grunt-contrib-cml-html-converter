@@ -2,13 +2,11 @@ module.exports = function(grunt) {
 
 	grunt.registerMultiTask('cml', 'Grunt task for converting CML to HTML', function() {
 		var cml_html_converter = require('cml-html-converter');
-		var result = cml_html_converter('line1\n\tline2');
-		console.log(result);
-/*
+
 		// Merge task-specific and/or target-specific options with these defaults.
 		var options = this.options({
-			punctuation: '.',
-			separator: ', '
+			punctuation: '',
+			separator: ''
 		});
 
 		// Iterate over all specified file groups.
@@ -19,12 +17,12 @@ module.exports = function(grunt) {
 				if (!grunt.file.exists(filepath)) {
 					grunt.log.warn('Source file "' + filepath + '" not found.');
 					return false;
-					} else {
+				} else {
 					return true;
 				}
 			}).map(function(filepath) {
 				// Read file source.
-				return grunt.file.read(filepath);
+				return cml_html_converter(grunt.file.read(filepath));
 			}).join(grunt.util.normalizelf(options.separator));
 
 			// Handle options.
@@ -36,7 +34,7 @@ module.exports = function(grunt) {
 			// Print a success message.
 			grunt.log.writeln('File "' + f.dest + '" created.');
 		});
-*/
+
 	});
 
 };
