@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/mahuntington/grunt-contrib-cml-html-converter#readme",
   "dependencies": {
-    "cml-html-converter": "^1.0.1"
+    "cml-html-converter": "^1.1.0"
   },
   "devDependencies": {
     "grunt": "^0.4.5"
