@@ -1,6 +1,6 @@
 {
   "name": "grunt-contrib-cml-html-converter",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "description": "Grunt Plugin for cml-html-converter",
   "main": "index.js",
   "scripts": {
